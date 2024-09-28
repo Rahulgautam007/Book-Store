@@ -1,13 +1,13 @@
-// require('dotenv').config();
+require('dotenv').config();
 const express = require("express");
 const app = express()
-const dotenv = require("dotenv")
+// const dotenv = require("dotenv")
 const cors = require("cors")
 app.use(cors())
 app.use(express.json())
 
-dotenv.config()
-const PORT = process.env.PORT
+// dotenv.config()
+// const PORT = process.env.PORT
 const connectDatabase= require("./config/database")
 // const DefaultData = require('./defaultdata.js')
 //Connected MongoDB
