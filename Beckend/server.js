@@ -24,7 +24,7 @@ app.use("/cart",cartRoute)
 // app.listen(PORT,(req,res)=>{
 //     console.log(`Server Started At ${PORT}`)
 // })
-app.listen(process.env.PORT||8000,()=>{
+app.listen(process.env.PORT||3002,()=>{
     console.log(`Server is running`)
 })
 // DefaultData();
