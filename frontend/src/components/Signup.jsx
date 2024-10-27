@@ -16,7 +16,7 @@ function Signup() {
         password: data.password
       };
 
-      const response = await axios.post("http://localhost:3002/user/signup", userInfo);
+      const response = await axios.post("https://bookstorebeckend.onrender.com/user/signup", userInfo);
       if (response.data) {
         toast.success("Signup successful");
         console.log(response.data);

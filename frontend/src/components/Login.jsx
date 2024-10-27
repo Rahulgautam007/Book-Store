@@ -19,7 +19,7 @@ function Login() {
       email:data.email,
       password:data.password
     }
-   await axios.post("http://localhost:3002/user/login",userInfo)
+   await axios.post("https://bookstorebeckend.onrender.com/user/login",userInfo)
     .then((res)=>{
       // console.log(res.data.user)
       if(res.data){

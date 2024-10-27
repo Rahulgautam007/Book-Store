@@ -3,7 +3,8 @@ import { useState } from "react";
 import toast from 'react-hot-toast'; 
 import { useAuth } from '../AuthProvider.jsx'
 const CartState = (props) => {
-    const host = "http://localhost:3002";
+    // const host = "http://localhost:3002";
+    const host = "https://bookstorebeckend.onrender.com";
     const[authUser,setAuthUser]=useAuth()
     //Getallitems
     const getitems = async () => {
